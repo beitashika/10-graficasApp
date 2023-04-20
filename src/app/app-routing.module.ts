@@ -5,7 +5,7 @@ import { GraficasModule } from './graficas/graficas.module';
 const routes: Routes = [
   
   {
-    path: 'grafica',
+    path: 'graficas',
     loadChildren: () => import('./graficas/graficas.module').then( m => m.GraficasModule )
   },
   {
