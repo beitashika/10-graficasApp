@@ -32,6 +32,19 @@ export class DonaHttpComponent {
         }
        
       });
+
+
+      // this.graficasService.getUsuariosRedesSocialesDonaData()
+      //     .subscribe( ({labels, values }) => {
+      //         this.doughnutChartLabels = labels;
+      //         this.doughnutChartData.datasets[0].data.push(values)
+      //     }
+
+
+      //     );
+
+
+
   }
 
 
